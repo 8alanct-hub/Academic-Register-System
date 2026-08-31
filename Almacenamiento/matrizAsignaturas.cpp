@@ -12,4 +12,4 @@ int m_Asignaturas(){
     */ 
     return 0;
 }
-//El codigoAsignatura se pedirán como int y luego se convertirán a string para almacenarlo.
+//El codigoAsignatura se pediran como int y luego se convertiran a string para almacenarlo.

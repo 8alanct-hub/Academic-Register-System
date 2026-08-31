@@ -4,14 +4,21 @@
 using namespace std;
 
 int m_Calificaciones(){
-    /*Es una matriz de enteros y se administra asi
-    |codigoEstudiante|codigoAsignatura|Calificacion|
-    */
+/*
+        {La matriz se estructura de la siguiente manera:
 
-    /*consultar el problema de como se van a almacenar las calificaciones en esta matriz
-    El problema plantea lo siguiente tenemos una matriz le pasamos 2 ints pero despues se le tiene que pasar varias calificaciones que pueden 
-    variar en cantidad pueden ser 3 calificaciones o 8 calificaciones como se guardaria esto?
-    
-    Propongo una matriz de listas para arreglar este problema
-    */
+        Siendo esto una matriz de listas:
+
+        | codigoEstudiante | codigoAsignatura | calificaciones |
+
+        La columna "calificaciones" almacenara una lista con las notas
+        correspondientes al estudiante y la asignatura.
+
+        Se utilizara una lista en lugar de establecer columnas independientes
+        para nota1, nota2, nota3, etc., ya que una cantidad fija de columnas
+        limita la escalabilidad de la estructura. La lista permite almacenar
+        una cantidad variable de calificaciones sin modificar la estructura
+        de la matriz.}
+        */
+
 }
