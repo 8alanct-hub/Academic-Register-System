@@ -1,2 +1,2 @@
 # Academic-Register-System
-Academic registration system developed in C++ using matrices.
+Academic registration system developed in C++ and C using matrices.
